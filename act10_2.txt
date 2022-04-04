@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Pruebas posición</title>
+   <meta charset="utf-8">
+<style>
+
+div{
+  background-image:url("img/paso_cebra.jpg");
+  background-size:597px;
+  background-repeat:no-repeat;
+  width:918px;
+  height:631px;
+  margin:50px;
+  
+}
+#beatle1{
+  position: absolute;
+  left: 450px;
+  top: 180px;
+}
+#beatle2{
+  left: 300px;
+  position: absolute;
+  top: 180px;
+}
+#beatle3{
+  position: absolute;
+  right: 430px;
+  top: 180px;
+}
+#beatle{
+  position: absolute;
+  top: 180px;
+}
+</style>
+</head>
+
+<body>
+<div>
+<img id="beatle" src="beatle.png" height="250px" alt="">
+<img id="beatle1" src="img/beatles1.png" height="250px" >
+<img id="beatle2" src="img/beatles2.png" height="250px" >
+<img id="beatle3" src="img/beatles3.png" height="250px" >
+
+</div>
+
+</body>
+</html>
